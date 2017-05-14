@@ -1,0 +1,83 @@
+body {
+    background-color: #eee;
+    color: rgba(0, 0, 0, .80);
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #e15554;
+}
+
+.heading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    background-color: #e15554;
+    color: #fff;
+    -webkit-box-shadow: 0 1px 8px rgba(0,0,0,.3);
+    box-shadow: 0 1px 8px rgba(0,0,0,.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-width: 300px;
+}
+
+.heading .title {
+    flex: auto;
+    font-size: 1.2em;
+}
+
+img.github {
+    height: 35px;
+}
+
+.card {
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+    padding: 15px;
+    background-color: #fff;
+    margin: 15px;
+}
+
+.card-column {
+    max-width: 600px;
+    min-width: 300px;
+    flex: auto;
+}
+
+.card-c-1 {
+    border-top: 4px solid #3c70ff;
+}
+
+.card-c-2 {
+    border-top: 4px solid #e1bc29;
+}
+
+.card-c-3 {
+    border-top: 4px solid #3bb273;
+}
+
+.card-c-4 {
+    border-top: 4px solid #7768ae;
+}
+
+.container {
+    padding-top: 50px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.work-exp-head {
+    font-size: 1.1em;
+    font-weight: bold;
+}
