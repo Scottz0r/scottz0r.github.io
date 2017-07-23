@@ -1,9 +1,9 @@
 body {
     background-color: #0000A8;
     color: #FFF;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: "Share Tech Mono", "Lucida Console", Monaco, monospace;
     cursor: default;
-    padding-top: 20px;
+    padding-top: 35px;
 }
 
 .dialog {
