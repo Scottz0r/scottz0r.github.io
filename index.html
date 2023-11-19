@@ -1,74 +1,301 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="theme-color" content="#0000A8">
-        <title>Scottz0r</title>
+<!--
+  Hello my F12 friend. Yes, I created this myself.
+  -Scott
+-->
+<!doctype html>
+<html lang="en">
 
-        <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet">
-        <link rel="stylesheet" href="./site.css" />
-    </head>
-    <body>
-        <div class="dialog">
-            <div class="dialog-inner">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scott Clewell</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-                <div class="dialog-title">
-                    [!] Scottz0r
-                </div>
+  <style>
+    @font-face {
+      font-family: "UbuntuMono";
+      src: url("UbuntuMono-Regular.ttf");
+    }
 
-                <p>
-                    Scott Clewell, aka "ScottZ0r", is a professional software developer with experience in many languages and frameworks. Scottz0r has applications that
-                    target *nix and windows systems.
-                </p>
+    .thumb-375 {
+      max-width: 375px;
+    }
 
-                <p>
-                    Location: USA.
-                </p>
+    .ubuntu-console {
+      font-family: UbuntuMono, monospace;
+    }
 
-                <p>
-                    The following packages have been developed by "Scottz0r":
-                    <ul>
-                        <li>
-                            <a href="https://github.com/Scottz0r/NetHierarchy" target="_blank">NETHIERARCHY</a>
-                            - Unbalanced tree with LINQ-like methods.
-                        </li>
-                        <li>
-                            <a href="https://github.com/Scottz0r/infmin" target="_blank">INFMIN</a>
-                            - Input File Minimizer, a text file minimizing CLI tool.
-                        </li>
-                        <li>
-                            <a href="https://github.com/Scottz0r/log4net.Extensions.AspNetCore" target="_blank">LOG4NET.EXTENSIONS.ASPNETCORE</a>
-                            - log4net provider for Microsoft.Extensions.Logging.
-                        </li>
-                    </ul>
-                </p>
+    @media (max-width: 425px ){
+      .smaller-text {
+        font-size: 0.6rem;
+        line-height: 1.5rem;
+      }
+    }
+  </style>
+</head>
 
-                <p>
-                    Scottz0r applications have been developed in the following languages: C#, Python, JavaScript, TypeScript, C. 
-                </p>
+<body>
+  <main>
+    <div class="bg-dark text-secondary text-center">
+      <div class="py-5">
+        <img src="images/headshot_swe.png" class="mx-auto d-block" width="150" height="150" />
+        <h1 class="display-5 fw-bold text-white">Scott Clewell</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">Software Engineer, Runner, Photographer</p>
+        </div>
+      </div>
+    </div>
 
-                <div class="button-box">
-                    <a href="https://github.com/Scottz0r" target="_blank">GitHub</a>
-                    <a href="./shell.html">Shell</a>
-                </div>
+    <div class="container my-2 text-center">
+      <a href="https://www.linkedin.com/in/scott-clewell-46872591/" target="_blank"><img src="LI-In-Bug.png" height="25"></a>
+      <a href="https://github.com/Scottz0r" target="_blank"><img src="github-mark.png" height="25"></a>  
+    </div>
+
+    <div class="container my-5">
+      <div class="card shadow-lg mb-5">
+        <div class="card-header" style="background-color: #333333; color: #ffffff">
+          <div class="position-relative">
+            <div class="text-center smaller-text">scott@scottz0r.github.io: ~</div>
+          
+            <div class="position-absolute top-0 end-0">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                <rect x="5" y="16" width="14" height="2" fill="#fff"/>
+              </svg>
+              
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                <rect x="5" y="5" width="14" height="14" fill="#fff"/>
+                <rect x="7" y="7" width="10" height="10" fill="#333333"/>
+              </svg>
+    
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10" fill="#E95420"/>
+                <line x1="8" y1="8" x2="16" y2="16" stroke="#FFF" stroke-width="2"/>
+                <line x1="8" y1="16" x2="16" y2="8" stroke="#FFF" stroke-width="2"/>
+              </svg>
             </div>
+          </div>
+
+
+        </div>
+        <div class="card-body"
+          style="font-family: monospace; font-size: 12px; background-color: #2C001E; color: #ffffff">
+          <p class="card-text ubuntu-console">
+            <b style="color: #26a269;">scott@scottz0r.github.io</b>:~$ cat scott_readme.txt<br/><br/>
+            Scott Clewell<br />
+            Software Engineer<br />
+            <br />
+            ABOUT<br />
+            -----<br />
+            Greetings! I'm Scott, a dedicated software engineer with a specialized focus on backend development.
+            With over eight years of experience in the dynamic field of technology, I excel at crafting robust
+            solutions to intricate problems. My professional journey has led me through diverse projects, including
+            websites, servers, backend data pipelines, and embedded systems. From database architecture, highly
+            concurrent servers, to optimizing performance, I find joy in creating seamless and efficient software
+            experiences.
+            <br />
+            <br />
+            Beyond the coding realm, I'm an avid runner who embraces the physical and mental challenges that come
+            with each stride. Running serves as my personal reset button, allowing me to recharge and enhance my
+            creativity.
+            <br />
+            <br />
+            When I'm not immersed in lines of code, you'll find me immersed in the pages of a good book. Whether
+            fiction, non-fiction, or tech-related literature, I'm a firm believer in the power of continuous
+            learning. Gaming is another passion of mine, providing a platform for both relaxation and collaboration.
+            Exploring virtual worlds and solving intricate puzzles are sources of inspiration and enjoyment.
+            Photography is my chosen medium for visual storytelling. From capturing breathtaking landscapes to
+            the essence of bustling city life, I enjoy sharing my unique perspective through the lens.
+            <br />
+            <br />
+            Join me on this multifaceted journey where the precision of code meets the rhythm of running, the depth
+            of literature, the thrill of gaming, and the artistry of photography. Let's explore the fascinating
+            intersection of technology and life together!
+            <br />
+            <br />
+            CAREER<br />
+            ------<br />
+            - Garmin | Sr. Software Engineer<br />
+            - Koch Supply & Trading | Software Engineer<br />
+            - Community America Credit Union | Software Engineer Intern<br />
+            <br />
+            CONTACT<br />
+            -------<br />
+            - <a href="https://github.com/Scottz0r" target="_blank">GitHub</a><br />
+            - <a href="https://www.linkedin.com/in/scott-clewell-46872591/" target="_blank">LinkedIn</a></br>
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2>Photography Highlights</h2>
+      <p>
+        I am an amateur photographer who likes to captures images of the World, whether big or small. Here are some of
+        my favorites.
+      </p>
+
+      <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3 g-3">
+
+        <div class="col">
+          <div class="card shadow-sm thumb-375 mx-auto">
+            <img src="images/chicago_knit_rack_sm.jpg" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h5 class="card-title">Knitted Bike Rack</h5>
+              <p class="card-text">
+                A bike rack in Chicago with a nice little sweater and the Chicago skyline in the background.
+              </p>
+              <p class="card-text">
+                1/500 f/4.0 100 ISO
+              </p>
+            </div>
+          </div>
         </div>
 
-
-        <div class="footer">
-            &lt;Tab&gt; moves; &lt;Enter&gt; activates buttons
+        <div class="col">
+          <div class="card shadow-sm thumb-375 mx-auto">
+            <img src="images/chicago_navy_wheel_sm.jpg" class="card-img-top img-fluid">
+            <div class="card-body">
+              <h5 class="card-title">Navy Pier Wheel</h5>
+              <p class="card-text">
+                A dramatic picture of the Chicago Navy Pier at night.
+              </p>
+              <p class="card-text">
+                1/60 f/2.8 2000 ISO
+              </p>
+            </div>
+          </div>
         </div>
 
-        <script
-            src="https://code.jquery.com/jquery-3.2.1.min.js"
-            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-            crossorigin="anonymous"></script>
-        <script type="text/javascript">
-            $(function(){
-                $("a").each(function(i, e){
-                    $(e).attr("tabindex", i + 1);
-                });
-            });
-        </script>
-    </body>
+        <div class="col">
+          <div class="card shadow-sm thumb-375 mx-auto">
+            <img src="images/chicago_reflect_sm.jpg" class="card-img-top " width="100%" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Chicago Reflection</h5>
+              <p class="card-text">
+                A self-portrait with the Chicago skyline in the background. Captured at the Navy Pier.
+              </p>
+              <p class="card-text">
+                1/60 f/2.8 6400 ISO
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm thumb-375 mx-auto">
+            <img src="images/cicada_sm.jpg" class="card-img-top " width="100%" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Cicada</h5>
+              <p class="card-text">
+                A cicada shell shot with extension tubes for a cheap macro effect.
+              </p>
+              <p class="card-text">
+                1/125 f/6.3 100 ISO
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm thumb-375 mx-auto">
+            <img src="images/evey_sunshine_sm.jpg" class="card-img-top " width="100%" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Evey in the Sunshine</h5>
+              <p class="card-text">
+                My cat, Evey, posing in the sunshine. A quick shutter created a nice black background,
+                hiding all the junk.
+              </p>
+              <p class="card-text">
+                1/800 f/2.0 100 ISO
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm thumb-375 mx-auto">
+            <img src="images/fox_lick_sm.jpg" class="card-img-top " width="100%" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Suburban Fox</h5>
+              <p class="card-text">
+                I caught this little fox snoozing in my backyard.
+              </p>
+              <p class="card-text">
+                1/500 f/8.0 200 ISO
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm thumb-375 mx-auto">
+            <img src="images/mothy_sm.jpg" class="card-img-top " width="100%" height="250">
+            <div class="card-body">
+              <h5 class="card-title">Mothy</h5>
+              <p class="card-text">
+                This was surprisingly captured with a kit lens. An ode to the saying,
+                <i>"The best camera is the one that's with you."</i>
+              </p>
+              <p class="card-text">
+                1/1000 f2.2 100 ISO
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow-sm thumb-375 mx-auto">
+            <img src="images/supermoon_squre_sm.jpg" class="card-img-top " width="100%" height="250">
+            <div class="card-body">
+              <h5 class="card-title">2023 Blue Supermoon</h5>
+              <p class="card-text">
+                A shot that comes once in a <i>blue</i> super moon, this was captured August 30, 2023.
+                The next blue super moon will be in 2037.
+              </p>
+              <p class="card-text">
+                1/50 f/13.0 100 ISO
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <hr />
+
+      <h2>Running</h2>
+
+      <div class="row justify-content-center">
+        <div class="col-md-2 col-6">
+          <img src="images/scott_gm_2023_thumb.jpg" class="rounded d-block img-fluid" width="200" height="200">
+        </div>
+        <div class="col-2 col-6">
+          <h3>Personal Records</h3>
+          <ul>
+            <li>Half: 2:18:47</li>
+            <li>10K: 50:44</li>
+            <li>5K: 23:47</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="m5 text-center text-body-tertiary">
+        <p style="font-size: 0.7rem;">
+          Copyright 2023 Scott Clewell<br/>
+          All photographs Copyright 2023 Scott Clewell
+        </p>
+      </div>
+
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
+<!-- Why did you read this far in the source? Nothing exciting here. It's just a static site. -->

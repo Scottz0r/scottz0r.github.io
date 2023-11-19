@@ -1,5 +1,0 @@
-**/node_modules
-src/src/*.js
-src/src/*.js.map
-src/.vscode
-src/dist
